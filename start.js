@@ -10,7 +10,7 @@ module.exports = async (kernel) => {
           env: { },                   // Edit this to customize environment variables (see documentation)
           path: "app",                // Edit this to customize the path to start the shell from
           message: [
-            `python demo_gradio.py --server 127.0.0.1 --port ${port}`,    // Edit with your custom commands
+            `python studio.py --server 127.0.0.1 --port ${port}`,    // Edit with your custom commands
           ],
           on: [{
             // The regular expression pattern to monitor.
